@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="198773" started-at="2016-12-07T15:43:13Z" finished-at="2016-12-07T15:46:31Z">
+    <groups>
+      <group name="Regression">
+        <method signature="JohnLewisFS_QCT.multiplePeopleWithSameFirstname()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameFirstname" class="CapstonesTesting.JohnLewisFS_QCT"/>
+        <method signature="JohnLewisFS_QCT.multiplePeopleWithSameFullNameUseInitial()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameFullNameUseInitial" class="CapstonesTesting.JohnLewisFS_QCT"/>
+        <method signature="JohnLewisFS_QCT.multiplePeopleWithSameSurname()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameSurname" class="CapstonesTesting.JohnLewisFS_QCT"/>
+        <method signature="JohnLewisFS_QCT.personDoesNotExistInKeysearch()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="personDoesNotExistInKeysearch" class="CapstonesTesting.JohnLewisFS_QCT"/>
+        <method signature="JohnLewisFS_QCT.usePersonsInitial()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="usePersonsInitial" class="CapstonesTesting.JohnLewisFS_QCT"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="JohnLewisFS_QCT.personExistInKeysearch()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="personExistInKeysearch" class="CapstonesTesting.JohnLewisFS_QCT"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="198773" started-at="2016-12-07T15:43:13Z" finished-at="2016-12-07T15:46:31Z">
+      <class name="CapstonesTesting.JohnLewisFS_QCT">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="setUp" is-config="true" duration-ms="12109" started-at="2016-12-07T15:43:13Z" finished-at="2016-12-07T15:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="multiplePeopleWithSameFirstname()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameFirstname" duration-ms="35426" started-at="2016-12-07T15:43:25Z" finished-at="2016-12-07T15:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplePeopleWithSameFirstname -->
+        <test-method status="PASS" signature="multiplePeopleWithSameFullNameUseInitial()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameFullNameUseInitial" duration-ms="29344" started-at="2016-12-07T15:44:00Z" finished-at="2016-12-07T15:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplePeopleWithSameFullNameUseInitial -->
+        <test-method status="PASS" signature="multiplePeopleWithSameSurname()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="multiplePeopleWithSameSurname" duration-ms="29926" started-at="2016-12-07T15:44:30Z" finished-at="2016-12-07T15:44:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplePeopleWithSameSurname -->
+        <test-method status="PASS" signature="personDoesNotExistInKeysearch()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="personDoesNotExistInKeysearch" duration-ms="29829" started-at="2016-12-07T15:44:59Z" finished-at="2016-12-07T15:45:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personDoesNotExistInKeysearch -->
+        <test-method status="PASS" signature="personExistInKeysearch()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="personExistInKeysearch" duration-ms="28408" started-at="2016-12-07T15:45:29Z" finished-at="2016-12-07T15:45:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- personExistInKeysearch -->
+        <test-method status="PASS" signature="usePersonsInitial()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="usePersonsInitial" duration-ms="31472" started-at="2016-12-07T15:45:58Z" finished-at="2016-12-07T15:46:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usePersonsInitial -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CapstonesTesting.JohnLewisFS_QCT@475530b9]" name="tearDown" is-config="true" duration-ms="2193" started-at="2016-12-07T15:46:29Z" finished-at="2016-12-07T15:46:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CapstonesTesting.JohnLewisFS_QCT -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

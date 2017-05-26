@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="CapstonesTesting.JohnLewisFS_QCT">
+        <methods>
+          <include name="personExistInKeysearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="multiplePeopleWithSameSurname"/>
+          <include name="usePersonsInitial"/>
+          <include name="multiplePeopleWithSameFirstname"/>
+          <include name="personDoesNotExistInKeysearch"/>
+          <include name="multiplePeopleWithSameFullNameUseInitial"/>
+        </methods>
+      </class> <!-- CapstonesTesting.JohnLewisFS_QCT -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
